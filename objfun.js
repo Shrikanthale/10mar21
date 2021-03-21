@@ -29,7 +29,7 @@ var people = {
 }
 people.Deatils()
 */
-
+/*
 var people = {
     Name : "sham",
     course:"cs",
@@ -48,3 +48,12 @@ var people = {
     }
 }
 console.log(people.getName("sharma"))
+*/
+var people = {
+    Name : "sham",
+    course:"cs",
+    codeno:1452,
+    color:"black",
+}
+ people.LastName="sharma"
+ console.log(people.Name+" "+people.LastName)

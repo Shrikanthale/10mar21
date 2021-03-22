@@ -34,6 +34,7 @@ console.log(mess)
  var result = sum(8,6);
  console.log("addition:"+result)
  */
+/*
 var  table = (t) => {
     for(var i=1 ; i<=10 ;i++){
         var l = t*i
@@ -43,3 +44,4 @@ var  table = (t) => {
 }
 var l = table(6)
 console.log(l)
+*/

@@ -48,7 +48,7 @@ var people = {
     }
 }
 console.log(people.getName("sharma"))
-*/
+
 var people = {
     Name : "sham",
     course:"cs",
@@ -57,3 +57,25 @@ var people = {
 }
  people.LastName="sharma"
  console.log(people.Name+" "+people.LastName)
+ */
+
+
+
+ class student {
+     constructor(Name,lastname,id){
+         this.Name=Name
+         this.lastname=lastname
+         this.id=id
+     }
+     getfullname(){
+         return this.Name + " " + this.lastname + " " + this.id
+     }
+     geteditname(newinfo){
+         var nname = newinfo.split(" ")
+         this.Name = nname[0]
+         this.lastname = nname[1]
+         this.id=nname[2]
+     }
+ }
+
+ module.exports=student

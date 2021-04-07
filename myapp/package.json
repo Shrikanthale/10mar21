@@ -1,0 +1,15 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "a demo ofr creatin app for student",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod":"npm start",
+    "start":"node myapp.js"
+  },
+  "keywords": [],
+  "author": "Shrikant kanthale",
+  "license": "ISC",
+  "type":"module"
+}
